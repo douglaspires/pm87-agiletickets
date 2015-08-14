@@ -31,7 +31,7 @@ public class SessaoTest {
 	}
 	
 	@Test
-	public void deveVender1IngressoSeHa1Vaga() {
+	public void seHa1VagaPodeReservar1Ingresso() {
 		Sessao sessao = new Sessao();
 		sessao.setTotalIngressos(1);
 
